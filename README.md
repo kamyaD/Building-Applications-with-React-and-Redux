@@ -1,4 +1,4 @@
-# Starter Kit for [Building Applications in React and Redux](http://www.pluralsight.com/author/cory-house) on Pluralsight
+React is a library with so much power, but so few strong opinions. So building something significant requires a large number of decisions and work to build the foundation. In this course, I Learnent how to use React, Redux, React Router, and modern JavaScript to build powerful and fast React applications from the ground up. I used Webpack, Babel, ESLint, npm scripts, Jest, React Testing Library, Enzyme, and more. I created  Create a rapid feedback development environment that runs linting and tests, transpiles modern JavaScript, runs a local webserver, opens the application, and reloads changes when you hit save. I deployed  with a single command. This course tought me a clear path for building robust, scalable React applications using today's modern and popular technologies.
 
 ## Get Started
 
