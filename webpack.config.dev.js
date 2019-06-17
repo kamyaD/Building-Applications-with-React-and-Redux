@@ -23,6 +23,9 @@ module.exports = {
     https: false
   },
   plugins: [
+    new webpack.DefinePlugin({
+      "process.env.API_URL": JSON.stringify("http://localhost:3001")
+    }),
     new HtmlWbpackPlugin({
       template: "src/index.html",
       favicon: "src/favicon.ico"
@@ -36,7 +39,7 @@ module.exports = {
         use: ["babel-loader", "eslint-loader"]
       },
       {
-        test: /(\.css)&/,
+        test: /\.css$/,
         use: ["style-loader", "css-loader"]
       }
     ]
